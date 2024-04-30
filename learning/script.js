@@ -11,3 +11,11 @@ if (checkAge(age)) {
 } else {
     console.log("Error");
 }
+
+function ShowMiv(age) {
+
+    return;
+
+    // console.log("RRRR");
+}
+console.log(ShowMiv() === undefined);
