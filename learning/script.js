@@ -1,6 +1,7 @@
-function num(num1 = 2, num2 = 2) {
-    let result = num1 + num2
+function num(num2) {
+    let result = num2 / 3;
+    console.log(num2 ? ? 'undown');
     console.log(result);
 }
 
-num()
+num(null)
