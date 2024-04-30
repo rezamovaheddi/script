@@ -1,7 +1,13 @@
-function num(num2) {
-    let result = num2 / 3;
-    console.log(num2 ? ? 'undown');
-    console.log(result);
+function checkAge(age) {
+    if (age > 18) {
+        return true
+    } else {
+        return confirm("do you parrent")
+    }
 }
-
-num(null)
+let age = prompt("How are old you");
+if (checkAge(age)) {
+    console.log("acsess");
+} else {
+    console.log("Error");
+}
