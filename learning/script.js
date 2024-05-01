@@ -1,21 +1,7 @@
-function checkAge(age) {
-    if (age > 18) {
-        return true
-    } else {
-        return confirm("do you parrent")
-    }
-}
-let age = prompt("How are old you");
-if (checkAge(age)) {
-    console.log("acsess");
-} else {
-    console.log("Error");
-}
+const score = [20, false];
 
-function ShowMiv(age) {
-
-    return;
-
-    // console.log("RRRR");
-}
-console.log(ShowMiv() === undefined);
+if (score[0] > 14 && score[1]) {
+    console.log("Your point is so grate");
+} else if (score[0] > 10 || score[1]) {
+    console.log("Try Agein");
+} else console.log("SO bad");
