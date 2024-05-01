@@ -1,7 +1,10 @@
-const score = [20, false];
-
-if (score[0] > 14 && score[1]) {
-    console.log("Your point is so grate");
-} else if (score[0] > 10 || score[1]) {
-    console.log("Try Agein");
-} else console.log("SO bad");
+// let fruit = [
+//     'apple',
+//     'bananna',
+//     'painapple'
+// ];
+let i = 0;
+while (i > 10) {
+    console.log("Hello world");
+    i++;
+}
