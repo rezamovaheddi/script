@@ -1,10 +1,3 @@
-// let fruit = [
-//     'apple',
-//     'bananna',
-//     'painapple'
-// ];
-let i = 0;
-while (i > 10) {
-    console.log("Hello world");
-    i++;
-}
+const bil = 40;
+let tip = bil <= 300 && bil >= 50 ? bil * 0.15 : bil * 0.2;
+console.log(`the bill is ${bil} and ${tip} and jameshon ${tip + bil}`);
