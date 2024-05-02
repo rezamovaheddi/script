@@ -1,3 +1,11 @@
-const bil = 40;
-let tip = bil <= 300 && bil >= 50 ? bil * 0.15 : bil * 0.2;
-console.log(`the bill is ${bil} and ${tip} and jameshon ${tip + bil}`);
+'use strict';
+
+let score = true;
+let likelesosn = false;
+
+if (score) {
+    likelesosn = true
+}
+if (likelesosn) {
+    console.log('He has like to study');
+}
